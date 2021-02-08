@@ -1,0 +1,28 @@
+1: Create one Registration form with below fields. [All fields are required]
+First Name,
+Last Name,
+Email,
+Phone Number, 
+	=> Multiple Phone Numbers. 
+	=> Add more number On click of +
+	=> Each number should be Unique
+Date of Birth,
+Gender
+Role [Company, Agent, Welder]
+
+2: User need to confirm his Mobile Number[OTP] & Email address[Confirmation Link].
+=> Confirmation Link & OTP should be expire in 10 mins. After 10 mins need new OTP & New Confirmation Link.
+=> Display Timer for OTP, Display Resend OTP only after timer reach it's limit.
+=> If both Email & Mobile number confirm then only user should be Login.
+
+3: After login if User is Company or Agent then he can add Jobs. [All fields are required]
+Title,
+Description,
+Salary
+
+3: If logged in user is Welder then he can only see list of jobs. Pagination required.
+
+You can use https://www.fast2sms.com/ for SMS sending.
+For Email you can use SendGrid SMTP or Your Own Gmail SMTP.
+
+MongoDB/SQL, Python-dJango
